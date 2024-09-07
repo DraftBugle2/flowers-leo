@@ -1,0 +1,1 @@
+onload = () => { const a = setTimeout(() => { document.body.classList.remove("not-loaded"), clearTimeout(a) }, 1e3) };
